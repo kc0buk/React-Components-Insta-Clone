@@ -16,7 +16,9 @@ const LikeSection = props => {
         key="likes-icons-container"
       >
         <div className="like-section-wrapper" onClick={ e => likePost()}>
+        {/* <div onClick={e => e.style.className.add('red')}> */}
           <FontAwesomeIcon icon={faHeart} />
+          {/* </div> */}
         </div>
         <div className="like-section-wrapper">
           <FontAwesomeIcon icon={faComment} />
